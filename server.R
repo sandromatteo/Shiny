@@ -3,7 +3,7 @@ library(shiny)
 CircleArea <- function(radius){ 3.14*radius*radius}
 CirclePer <- function(radius){ 6.28*radius}
 TriangleArea <- function(vertical,base){base*vertical/2}
-TrianglePer <- function(vertical,base){"not enough information, you need to know the 3 edges"}
+TrianglePer <- function(vertical,base){"you need to know the 3 edges, no possible to calculate it!"}
 RectangleArea <- function(vertical,base){base*vertical}
 RectanglePer <- function(vertical,base){2*(base+vertical)}
 

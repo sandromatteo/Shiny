@@ -8,7 +8,8 @@ shinyUI(pageWithSidebar(
     conditionalPanel(condition="input.tabs==1",
                      h3("Intro"),
                      helpText("This application calculates the areas or perimeter of some basic geometric figures"),
-                     helpText("click on the tab to select the figure...")
+                     helpText("click on the tab to select the figure..."),
+                     helpText("insert a value in the numeric input and choose what you want to calculate")
     ),
     conditionalPanel(condition="input.tabs==2",
                      h3("Circle"),
